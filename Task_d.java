@@ -30,7 +30,7 @@ public class Task_d {
         System.out.printf(RECORD, name1, quantity1, price1);
 
         // Print the table row2
-        System.out.printf(LINE);
+        //System.out.printf(LINE);
         System.out.printf(RECORD, name2, quantity2, price2);
 
         

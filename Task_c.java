@@ -27,7 +27,7 @@ public class Task_c {
                 System.out.printf(RECORD, city1, state1, polpulation1);
         
                 // Print the table row2
-                System.out.printf(LINE);
+                //System.out.printf(LINE);
                 System.out.printf(RECORD, city2, state2, polpulation2);
         
                 

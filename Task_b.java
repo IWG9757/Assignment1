@@ -24,7 +24,7 @@ public class Task_b{
         System.out.printf(RECORD, name1,age1);
 
         // Print the table row2
-        System.out.printf(LINE);
+        //System.out.printf(LINE);
         System.out.printf(RECORD, name2, age2);
 
         
