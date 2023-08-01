@@ -14,10 +14,10 @@ public class Task_c {
                 //initializing title, record and line of the table
         
                 final String TITLE = "\033[0;37m%-14s \033[1;33m| \033[0;37m%-10s \033[1;33m| \033[0;37m%-10s \033[1;33m|\n";
-                final String RECORD = "\033[0m%-14s \033[0;33m| \033[0m%10s \033[0;33m| \u001B[35m%,d \033[0;33m|\n";
+                final String RECORD = "\033[0m%-14s \033[0;33m| \033[0m%10s \033[0;33m| \u001B[35m%,10d \033[0;33m|\n";
                 
                 // Print the table title
-                final String LINE = "\033[0;33m+---------------+----------+--------------+ \n|";
+                final String LINE = "\033[0;33m+---------------+------------+------------+ \n|";
                 System.out.printf(LINE);
                 System.out.printf(TITLE, "CITY", "STATE", "POPULAION");
                 
